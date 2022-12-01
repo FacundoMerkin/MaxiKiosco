@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget"
 import React from "react"
 
 export const NavBar = () => {
@@ -11,6 +12,11 @@ export const NavBar = () => {
                     aria-label="Bebidas">Bebidas</button></li>
             <li>
                 <button  aria-label="toggle light/dark mode">Comida</button>
+            </li>
+            <li>
+                <a className="nav__link" href="#" >
+                    <CartWidget />
+                </a>
             </li>
         </ul>
     </nav>
